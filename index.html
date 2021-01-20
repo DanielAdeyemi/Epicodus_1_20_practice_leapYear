@@ -16,10 +16,13 @@
     <form>
       <div class="mb-3">
         <label for="user" class="form-label">Year</label>
-        <input type="number" class="form-control" id="year" placeholder="Insert year to check">
+        <input type="number" class="form-control" id="year" placeholder="Insert year to check" min="1" required>
       </div>
       <button type="submit" class="btn btn-info">Let's check</button>
     </form>
+
+    <div class="alert alert-info" role="alert">
+    </div>
   </div>
 </body>
 
